@@ -1,5 +1,6 @@
 ## Setup
 1. `python3.6 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt`
+1. Get the [latest Chrome driver](https://sites.google.com/a/chromium.org/chromedriver/downloads) and put it in your *PATH* somewhere
 
 ## Usage
 1. `source .venv/bin/activate`
