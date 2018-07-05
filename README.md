@@ -8,3 +8,4 @@ Automate the tedious task of adding each trip's details over your many years in 
 
 ## Usage
 1. `source .venv/bin/activate`
+1. `python main.py`
