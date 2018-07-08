@@ -10,7 +10,8 @@ Automate the tedious task of adding each applicant's trip details from over your
 ## Usage
 
 1. Get your data in the proper format - see `trips.csv`. Dates are `dd/mm/yy` format
-1. If you're doing multiple applicants, edit the `applicant_index` to indicate which one you're adding trips to (0 = first in your , etc)
+1. Enter an `application_id` and `password` for the application
+1. If you're doing multiple applicants, edit the `applicant_index` to indicate which one you're adding trips to (0 = first in your list, etc)
 1. `source .venv/bin/activate`
 1. `python main.py`
 1. Check over each entry after being filled in, then hit "Save and continue"
