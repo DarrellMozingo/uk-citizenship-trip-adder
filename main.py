@@ -55,7 +55,7 @@ driver.find_element_by_css_selector("input[type='submit']").click()
 assert 'All applicants' in driver.page_source
 
 driver.find_elements_by_partial_link_text('Answer questions')[applicant_index].click()
-assert 'Additional trips outside the UK' in driver.page_source
+assert 'outside the UK' in driver.page_source
 
 with open('trips.csv', newline='') as csvfile:
     trips = csv.DictReader(csvfile)
